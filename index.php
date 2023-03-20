@@ -4,8 +4,8 @@ $URL = "https://www.github.com/";
 var_dump($URL);
 
 if(!filter_var($URL, FILTER_VALIDATE_URL)){
-	var_dump("URL invalid!");
-	exit;
+    var_dump("URL invalid!");
+    exit;
 }
 
 $curl = curl_init($URL);
@@ -30,7 +30,7 @@ if($status === true){
     var_dump("Website is UP.");
 }
 else {
-	var_dump("Website is DOWN.");
+    var_dump("Website is DOWN.");
 }
 
 ?>
