@@ -22,10 +22,11 @@ curl_setopt_array($curl, array(
 
 $response = curl_exec($curl);
 $error = curl_error($curl);
-
 curl_close($curl);
+
 $response ? $status = true : $status = false;
 
+// Print result
 if($status === true){
     var_dump("Website is UP.");
 }
