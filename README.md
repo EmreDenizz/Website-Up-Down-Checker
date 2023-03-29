@@ -1,5 +1,5 @@
 # Website-Up-Down-Checker
-Check a website is Up or DOWN
+Check if a website is Up or DOWN
 
 ### HOW TO RUN:
 Run **index.php** file
